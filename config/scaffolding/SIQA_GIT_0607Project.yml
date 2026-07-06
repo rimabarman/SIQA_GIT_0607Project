@@ -12,6 +12,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: DADA_ExtendedProperty
+  version: "1.0"
   gitServerName: rimaSCName
   gitUrl: https://github.com/ParmelaDohling579
   gitUsername: rimabarman
@@ -37,7 +38,7 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: project.siqa_git_0607.integrations:SIQAAdapterFlow
+- serviceName: project.siqa_git_0607.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDB1
   packages:
   - name: SIQA_GIT_0607Project
     version: "1.0"
